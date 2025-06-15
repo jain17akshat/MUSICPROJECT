@@ -25,10 +25,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" classname="dark">
+    <html lang="en" className="dark">
       <body
         className={inter.className}>
-          <Navbar/>
+<div className="relative w-full justify-center flex items-center ">
+<Navbar/>
+
+</div>
         {children}
       </body>
     </html>
