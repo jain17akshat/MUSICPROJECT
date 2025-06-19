@@ -41,6 +41,7 @@ function WhyChooseUs() {
   return (
     <div>
         <StickyScroll content={musicSchoolContent} />
+
     </div>
   )
 }
